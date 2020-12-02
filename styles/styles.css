@@ -1,12 +1,17 @@
 body {
   margin: 0;
   width: 100%;
+	font-family: arial;
 }
 
 header {
-  background-color: rgb(44, 154, 183);
+  background-color: rgb(3, 163, 223);
   display: flex;
   justify-content: center;
+}
+
+.hide {
+	display: none;
 }
 
 header h1 {
@@ -14,8 +19,8 @@ header h1 {
   position: absolute;
   left: 13rem;
   top: 1rem;
-  font-size: 60px;
-  font-family: sans-serif;
+  font-size: 40px;
+  font-family: arial bold;
 }
 
 header h2 {
@@ -23,8 +28,8 @@ header h2 {
   position: absolute;
   left: 13rem;
   top: 8rem;
-  font-size: 25px;
-  font-family: sans-serif;
+  font-size: 24px;
+  font-family: arial bold;
   font-style: italic;
   line-height: 36px;
 }
@@ -46,7 +51,7 @@ header h2 {
 
 /* Style the links inside the navigation bar */
 nav {
-  font-family: sans-serif;
+  font-family: arial;
 }
 
 nav li {
@@ -99,7 +104,14 @@ wrapper {
   overflow: hidden;
   line-height: 32px;
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: arial;
+}
+
+.wrapper {
+  width: 90%;
+  min-height: auto;
+  margin: 2rem auto;
+  overflow: hidden;
 }
 
 .hide {
@@ -130,13 +142,13 @@ wrapper {
 
 #a1 {
   font-size: 24px;
-  font-family: sans-serif;
+  font-family: arial;
   color: rgb(44, 154, 183);
 }
 
 #a2 {
   font-size: 24px;
-  font-family: sans-serif;
+  font-family: arial;
   color: rgb(44, 154, 183);
 }
 
