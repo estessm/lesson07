@@ -187,8 +187,22 @@ nav li a:hover {
     left: 36px;
 }
 
+.c-box {
+    border: 3px solid rgb(27, 68, 127);
+    margin: 2rem;
+}
+
+.m1 {
+    position: relative;
+    left: 4rem;
+    top: 2rem;
+}
 
 
+.p2 {
+    position: relative;
+    top: 8rem;
+}
 
 
 
